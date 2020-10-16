@@ -1,274 +1,91 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
+<head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Traveling - Fly with us</title>
-
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.1/css/bootstrap.min.css">
-    <link
-      href="https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&display=swap"
-      rel="stylesheet">
     <link rel="stylesheet" href="styles/main.css">
+    <link rel="stylesheet" href="styles/results.css">
+    <link href="https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&display=swap" rel="stylesheet">
+    <script src="https://kit.fontawesome.com/b45f3b1a2a.js"></script>
 
-    <script src="https://kit.fontawesome.com/b45f3b1a2a.js" crossorigin="anonymous"></script>
-  </head>
-  <body>
+    <title>Traveler</title>
+</head>
+<body>
 
+    <!-- HEADER-->
     <header>
-      <div class="header-top pt-3 pb-3">
-        <div class="container">
-          <div class="row">
-            <div class="col text-right">
-              <a href="">
-                LOGIN
-              </a>
-              <a href="" class="ml-3">
-                SIGNUP
-              </a>
-              <a href="" class="ml-3">
-                USD
-              </a>
-            </div>
-          </div>
+        <div class="header-top pt-3 pb-3">
+            <div class="container">
+                <div class="row align-middle">
+                    <div class="col text-right ">
+                    <a href="" class="mr-3">
+                        LOGIN
+                    </a>
+                    <a href="" class="mr-3">
+                        SIGNUP
+                    </a>
+                    <a href="">
+                        USD
+                    </a>
+                </div>
+                </div>
+             </div>
         </div>
-      </div>
-      <div class="container pt-2 pb-2">
+        <div class="container pt-2 pb-2">
         <div class="row align-items-center">
-          <div class="col">
-            <img src="images/logo.jpg" alt="Traveling">
-          </div>
-          <div class="col text-right header-main-menu">
-            <a href="">
-              HOME
-            </a>
-            <a href="" class="ml-3">
-              SALES
-            </a>
-            <a href="" class="ml-3">
-              REVIEWS
-            </a>
-            <a href="" class="ml-3">
-              NEWS
-            </a>
-            <a href="" class="ml-3">
-              CONTACTS
-            </a>
-          </div>
+            <div class="col">
+                <img src="img/logo.png" alt="LOGO" class="logo">
+            </div>
+            <div class="col text-right">
+                <a href="">
+                    HOME
+                </a>
+                <a href="" class="ml-3">
+                    SALES
+                </a>
+                <a href="" class="ml-3">
+                    REVIEWS
+                </a>
+                <a href="" class="ml-3">
+                    NEWS
+                </a>
+                <a href="" class="ml-3">
+                    CONTACTS
+                </a>
+            </div>
         </div>
-      </div>
+        </div>
     </header>
 
-    <!-- Promo section -->
+    <!-- CALL TO ACTION -->
     <section class="home-promo">
-      <div class="container">
-        <div class="row">
-          <div class="col-lg-6">
-            <h1>Let's discover the <span>world</span> together</h1>
-            <p class="mt-4"><i class="fas fa-plane"></i> Over 500 airlines</p>
-            <p><i class="fas fa-map-marker-alt"></i> Over 500 airlines</p>
-            <p><i class="fas fa-map-marker-alt"></i> Over 500 airlines</p>
-            <p><i class="fas fa-map-marker-alt"></i> Over 500 airlines</p>
-            <p><i class="fas fa-map-marker-alt"></i> Over 500 airlines</p>
-            <a href="" class="btn btn-primary btn-lg">Find out more</a>
-          </div>
+        <div class="container">
+            <div class="row">
+                <div class="col col-lg-6">
+                    <h1>Enrico Deleo il migliore </h1>
+                    <i class="fas fa-user-graduate"></i>
+                    <a href="https://github.com/enricodeleo" class="btn btn-lg btn-primary">Vai al sito</a>
+
+                </div>
+            </div>
         </div>
-      </div>
+        
     </section>
 
-    <section class="search">
 
-      <div class="container pt-3 pb-3">
+   
 
-        <form action="search.html" method="get">
-
-          <!-- Row 1 -->
-          <div class="form-row align-items-end">
-
-            <div class="col-lg-4">
-              <div class="form-group">
-                <label for="">Leaving from</label>
-                <input type="text" class="form-control" placeholder="City, district or specific airport">
-              </div>
-            </div>
-
-            <div class="col">
-              <div class="form-group">
-                <label for="">Departing on</label>
-                <input type="date" class="form-control">
-              </div>
-            </div>
-
-            <div class="col">
-              <div class="form-group">
-                <select class="custom-select" id="inputGroupSelect01">
-                  <option selected>Anytime</option>
-                  <option value="1">One</option>
-                  <option value="2">Two</option>
-                  <option value="3">Three</option>
-                </select>
-              </div>
-            </div>
-
-            <div class="col">
-              <div class="form-row">
-                <div class="col-6">
-                  <div class="form-group">
-                    <label for="">Adults</label>
-                    <input type="number" class="form-control">
-                  </div>
-                </div>
-                <div class="col-6">
-                  <div class="form-group">
-                    <label for="">Kids</label>
-                    <input type="number" class="form-control">
-                  </div>
-                </div>
-              </div>
-            </div>
-
-            <div class="col">
-              <div class="form-group">
-                <label for="">Leaving from</label>
-                <input type="text" class="form-control" placeholder="City, district or specific airport">
-              </div>
-            </div>
-
-          </div>
-
-          <!-- Row 2 -->
-          <div class="form-row align-items-end">
-            <div class="col-lg-4">
-              <div class="form-group">
-                <label for="">Going from</label>
-                <input type="text" class="form-control" placeholder="City, district or specific airport">
-              </div>
-            </div>
-            <div class="col">
-              <div class="form-group">
-                <label for="">Arriving on</label>
-                <input type="date" class="form-control">
-              </div>
-            </div>
-            <div class="col">
-              <div class="form-group">
-                <select class="custom-select" id="inputGroupSelect01">
-                  <option selected>Anytime</option>
-                  <option value="1">One</option>
-                  <option value="2">Two</option>
-                  <option value="3">Three</option>
-                </select>
-              </div>
-            </div>
-            <div class="col">
-              <div class="form-group">
-                <label for="">Infants</label>
-                <input type="number" class="form-control">
-              </div>
-            </div>
-            <div class="col">
-              <div class="form-group">
-                <input type="submit" class="btn btn-outline-primary btn-block" value="SEARCH">
-              </div>
-            </div>
-          </div>
-
-        </form>
-
-      </div>
-
-    </section>
-
-    <!-- Recommended section -->
-    <section class="recommended mt-5 pt-4 pb-4">
-      <div class="container">
-
-        <div class="row">
-          <div class="col">
-            <h2 class="special-title">Recommended</h2>
-            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quae aliquid dolore repellendus. Veniam amet vero obcaecati necessitatibus impedit voluptatibus nemo nesciunt eveniet similique dolorum, consequatur officia dolorem adipisci! Est, sapiente?</p>
-          </div>
-        </div>
-
-        <div class="row">
-          <div class="col">
-            <div class="card">
-              <div class="card-body">
-                <img src="https://pix10.agoda.net/hotelImages/255129/-1/4be994f3bf41842cbef6626c815d18a5.jpg?s=1024x768" class="img-fluid" alt="">
-
-                <div class="row">
-                  <div class="col">
-                    <i class="fas fa-plane"></i>
-                    <p>Bali</p>
-                    <p>One-way flight</p>
-
-                    <a href="" class="btn btn-primary">VIEW</a>
-                  </div>
-                  <div class="col">
-                    <p>From</p>
-                    <p>$620</p>
-                    <a href="" class="btn btn-primary">BOOK</a>
-                  </div>
-                </div>
-
-              </div>
-            </div>
-          </div>
-          <div class="col">
-            <div class="card">
-              <div class="card-body">
-                <img src="https://pix10.agoda.net/hotelImages/255129/-1/4be994f3bf41842cbef6626c815d18a5.jpg?s=1024x768" class="img-fluid" alt="">
-
-                <div class="row">
-                  <div class="col">
-                    <i class="fas fa-plane"></i>
-                    <p>Bali</p>
-                    <p>One-way flight</p>
-
-                    <a href="" class="btn btn-primary">VIEW</a>
-                  </div>
-                  <div class="col">
-                    <p>From</p>
-                    <p>$620</p>
-                    <a href="" class="btn btn-primary">BOOK</a>
-                  </div>
-                </div>
-
-              </div>
-            </div>
-          </div>
-          <div class="col">
-            <div class="card">
-              <div class="card-body">
-                <img src="https://pix10.agoda.net/hotelImages/255129/-1/4be994f3bf41842cbef6626c815d18a5.jpg?s=1024x768" class="img-fluid" alt="">
-
-                <div class="row">
-                  <div class="col">
-                    <i class="fas fa-plane"></i>
-                    <p>Bali</p>
-                    <p>One-way flight</p>
-
-                    <a href="" class="btn btn-primary">VIEW</a>
-                  </div>
-                  <div class="col">
-                    <p>From</p>
-                    <p>$620</p>
-                    <a href="" class="btn btn-primary">BOOK</a>
-                  </div>
-                </div>
-
-              </div>
-            </div>
-          </div>
-        </div>
-
-
-      </div>
-    </section>
-
+    <!-- FOOTER-->
     <footer>
-
+        <div class="row footer">
+            <div class="col">
+                <p class="text-center">
+                    Copyritgh &copy , 2020 TRAVEL
+                </p>
+            </div>
+        </div>
     </footer>
-
-  </body>
+    
+</body>
 </html>
