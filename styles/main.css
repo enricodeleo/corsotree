@@ -1,0 +1,147 @@
+body {
+  font-family: 'Lato', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+a {
+  color: rgb(0, 174, 236);
+}
+
+.btn-white {
+  background: white;
+  color: #3d6edc;
+  border: 1px solid #dddde5;
+}
+
+.special-title {
+  position: relative;
+  padding-bottom: 30px;
+}
+
+.special-title::after {
+  content: ' ';
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  display: block;
+  width: 10%;
+  height: 2px;
+  background-color: rgb(0, 174, 236);
+}
+
+/* Header section */
+
+.header-top {
+  background-color: rgb(0, 174, 236);
+  color: #ffffff;
+  font-size: 0.75rem;
+}
+
+.header-top a {
+  color: #ffffff;
+}
+
+.header-main-menu a {
+  font-size: 1.2rem;
+  font-weight: 350;
+}
+
+/* Home promo section */
+
+.home-promo {
+  background-image: url(../images/home-bg.jpg);
+  background-repeat: no-repeat;
+  background-position: center top;
+  background-size: cover;
+  color: white;
+  padding-top: 100px;
+  padding-bottom: 100px;
+  position: relative;
+}
+
+.home-promo::after {
+  content: ' ';
+  width: 100%;
+  height: 100%;
+  top: 0;
+  left: 0;
+  background: rgba(0, 0, 0, 0.4);
+  display: block;
+  position: absolute;
+  z-index: 0;
+}
+
+.home-promo h1 {
+  font-size: 4rem;
+  font-weight: 900;
+}
+
+.home-promo i,
+.home-promo h1 span {
+  color: rgb(0, 174, 236);
+}
+
+.home-promo p {
+  font-size: 1.2rem;
+}
+
+.home-promo i {
+  margin-right: 10px;
+}
+
+.home-promo .container {
+  position: relative;
+  z-index: 99;
+}
+
+.home-promo .btn {
+  text-transform: uppercase;
+  background-color: #3a455c;
+  border-radius: 25px;
+  border-color: #3a455c;
+  font-size: 0.95rem;
+  padding-left: 40px;
+  padding-right: 40px;
+  padding-top: 15px;
+  padding-bottom: 15px;
+}
+
+/* Search section */
+
+.search .container {
+  box-shadow: 0 0 10px 0 rgba(0, 0, 0, 0.2);
+}
+
+.search label {
+  font-weight: bold;
+}
+
+.search select,
+.search input {
+  border-radius: 25px;
+  background-color: #f5f5f5;
+}
+
+.search .btn {
+  border-radius: 25px;
+  border-color: rgb(0, 174, 236);
+  color: rgb(0, 174, 236);
+  background-color: #ffffff;
+}
+
+.recommended {
+  background: #ececec;
+}
+
+
+.logo-rec{
+  border: 1px solid black;
+  border-radius: 50%;
+  padding:6px;
+
+}
+
+.card-body p{
+  margin-bottom: 0;
+}
+
+.card-body a{margin-top: 30px;}
